@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secure File Upload and Sharing</title>
+  <style>
+    #file-input {
+      padding: 10px;
+    }
+    #upload-button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #share-button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Login</h1>
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+  <button id="login-button" onclick="login()">Login</button>
+
+  <h1>File Upload</h1>
+  <input type="file" id="file-input" accept=".txt, .pdf, .jpg, .png, .fa">
+  <button id="upload-button" onclick="uploadFile()">Upload</button>
+
+  <h1>Secure Data Sharing</h1>
+  <input type="text" id="recipient" placeholder="Recipient's email or username">
+  <button id="share-button" onclick="shareFile()">Share</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script>
+    let uploadedFileContent = '';
+
+    function login() {
+      const username = document.getElementById('username').value.trim();
+      const password = document.getElementById('password').value.trim();
+
+      // Validate username and password
+      if (username.length < 4 || username.length > 20) {
+        alert('Username must be between 4 and 20 characters long');
+        return;
+      }
+      if (password.length < 8 || password.length > 50) {
+        alert('Password must be between 8 and 50 characters long');
+        return;
+      }
+
+      const passwordHash = CryptoJS.SHA256(password).toString(CryptoJS.enc.Hex);
+      sessionStorage.setItem('username', username);
+      sessionStorage.setItem('passwordHash', passwordHash);
+
+      alert('Logged in successfully!');
+    }
+
+    function uploadFile() {
+      const fileInput = document.getElementById('file-input');
+      const file = fileInput.files[0];
+
+      // Validate file type and size
+      if (file.size > 10 * 1024 * 1024) {
+        alert('File size exceeds the limit of 10MB');
+        return;
+      }
+
+      const reader = new FileReader();
+      reader.onload = () => {
+        uploadedFileContent = reader.result;
+        const anonymizedContent = anonymizeContent(uploadedFileContent);
+        console.log(anonymizedContent);
+        alert('File uploaded successfully!');
+      };
+      reader.readAsText(file);
+    }
+
+    function shareFile() {
+      const recipient = document.getElementById('recipient').value.trim();
+      if (uploadedFileContent && recipient) {
+        const encryptedContent = encryptData(uploadedFileContent);
+        console.log(`Sharing encrypted content with ${recipient}: ${encryptedContent}`);
+        alert('File shared successfully!');
+      } else {
+        alert('Please upload a file and enter a recipient');
+      }
+    }
+
+    function anonymizeContent(content) {
+      // Basic anonymization: replace names and IDs with placeholders
+      const nameRegex = /\b[A-Z][a-z]+ [A-Z][a-z]+\b/g;
+      const idRegex = /\b\d{3}-\d{2}-\d{4}\b/g;
+      return content
+        .replace(nameRegex, '[NAME REDACTED]')
+        .replace(idRegex, '[ID REDACTED]');
+    }
+
+    function encryptData(data) {
+      // Use encryption library, such as Crypto-JS
+      const encryptedData = CryptoJS.AES.encrypt(data, 'secret key').toString();
+      return encryptedData;
+    }
+    </script>
+</body>
+</html>
