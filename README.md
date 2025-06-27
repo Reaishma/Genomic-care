@@ -1,8 +1,8 @@
 # Genomic Care
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](https://github.com/your-username/your-repo-name/pulls)
-[![Author](https://img.shields.io/badge/Author-Reaishma%20N-blue.svg)](https://github.com/your-username)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](https://github.com/your-Reaishma/your-repo-name/pulls)
+[![Author](https://img.shields.io/badge/Author-Reaishma%20N-blue.svg)](https://github.com/your-Reaishma)
 
 ## Overview
 -----------
