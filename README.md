@@ -1,8 +1,8 @@
 # Genomic Care
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](https://github.com/your-Reaishma/your-repo-name/pulls)
-[![Author](https://img.shields.io/badge/Author-Reaishma%20N-blue.svg)](https://github.com/your-Reaishma)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](https://github.com/Reaishma/Genomic-Care/pulls)
+[![Author](https://img.shields.io/badge/Author-Reaishma%20N-blue.svg)](https://github.com/Reaishma)
 
 ## Overview
 -----------
@@ -69,7 +69,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## Author
 ------
 
-* **Reaishma N** - [GitHub Profile](https://github.com/your-Reaishma)
+* **Reaishma N** - [GitHub Profile](https://github.com/Reaishma)
 
 ## License
 -------
@@ -82,4 +82,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions or would like to get in touch, please feel free to open an issue or contact me directly.
 
 ✅ **This project is actively maintained and open to contributions!**
+
 
