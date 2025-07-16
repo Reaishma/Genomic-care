@@ -13,7 +13,7 @@ Genomic data integration for personalized medicine involves combining genetic in
 
 [View live demo](https://reaishma.github.io/Genomic-care/)
 
-The application appears to be designed for researchers and clinicians working with genetic data to identify potential therapeutic targets.
+The application appears to be designed for researchers and clinicians working with genetic data to identify potential therapeutic targets, pathway dynamics using  machine learning model.
 
 ### Machine Learning Pipeline
 - **Dual ML Framework**: Combines TensorFlow.js for neural networks with ML.js for classical algorithms
@@ -38,6 +38,16 @@ The application appears to be designed for researchers and clinicians working wi
 4. **Visualization Rendering**: D3.js and Chart.js create interactive visualizations
 5. **Results Display**: Predictions and analysis results are displayed in real-time
 
+## External Dependencies
+
+### CDN-es
+- **libraries
+- **TensorFlow.js**: Machine learning framework for browser-based neural networks
+- **ML.js**: JavaScript machine learning library for classical algorithms
+- **D3.js**: Data visualization library for custom interactive graphics
+- **Chart.js**: Charting library for standard statistical visualizations
+- **Bootstrap**: CSS framework for responsive design and UI components
+- **Font Awesome**: Icon library for user interface elements
 
 ## Features
 ------------
