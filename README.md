@@ -9,6 +9,36 @@
 
 Genomic data integration for personalized medicine involves combining genetic information with clinical data to provide tailored treatments and prevention strategies. This approach enables healthcare providers to predict disease risks, identify effective medications, and prevent adverse reactions.
 
+## Live Demo 
+
+[View live demo](https://reaishma.github.io/Genomic-care/)
+
+The application appears to be designed for researchers and clinicians working with genetic data to identify potential therapeutic targets.
+
+### Machine Learning Pipeline
+- **Dual ML Framework**: Combines TensorFlow.js for neural networks with ML.js for classical algorithms
+- **Client-Side Inference**: All model predictions run locally in the browser
+- **Real-time Analysis**: Immediate feedback and results without server dependencies
+
+### Visualization Engine
+- **Interactive Charts**: Chart.js integration for standard statistical visualizations
+- **Custom Visualizations**: D3.js for specialized genetic data representations
+- **Responsive Graphics**: All visualizations adapt to different screen sizes
+
+### User Interface
+- **Modern Design System**: Custom CSS variables for consistent theming
+- **Color-Coded Interface**: Semantic colors for different types of genetic data and predictions
+- **Progressive Enhancement**: Graceful degradation for older browsers
+
+## Data Flow
+
+1. **Data Input**: Users input genetic data through web forms or file uploads
+2. **Client-Side Processing**: JavaScript processes the data using ML libraries
+3. **Model Inference**: TensorFlow.js and ML.js models analyze the genetic information
+4. **Visualization Rendering**: D3.js and Chart.js create interactive visualizations
+5. **Results Display**: Predictions and analysis results are displayed in real-time
+
+
 ## Features
 ------------
 
