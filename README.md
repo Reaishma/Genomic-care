@@ -4,14 +4,16 @@
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](https://github.com/Reaishma/Genomic-Care/pulls)
 [![Author](https://img.shields.io/badge/Author-Reaishma%20N-blue.svg)](https://github.com/Reaishma)
 
+
+# 🚀 Live Demo 
+
+View live demo https://reaishma.github.io/Genomic-care/
+
 ## Overview
 -----------
 
 Genomic data integration for personalized medicine involves combining genetic information with clinical data to provide tailored treatments and prevention strategies. This approach enables healthcare providers to predict disease risks, identify effective medications, and prevent adverse reactions.
 
-## Live Demo 
-
-[View live demo](https://reaishma.github.io/Genomic-care/)
 
 The application appears to be designed for researchers and clinicians working with genetic data to identify potential therapeutic targets, pathway dynamics using  machine learning model.
 
