@@ -98,6 +98,9 @@ The application appears to be designed for researchers and clinicians working wi
 ## Outcomes
 ----------
 
+
+![documents](https://github.com/Reaishma/Genomic-care/blob/main/chrome_screenshot_Sep%205%2C%202025%201_54_03%20PM%20GMT%2B05_30.png) 
+
 * **Genetic Analysis Platform**: A comprehensive platform for managing, analyzing, and visualizing genetic data.
 * **Potential Therapeutic Targets**: Identification of potential therapeutic targets for cancer treatment.
 * **Pathway Dynamics Understanding**: Understanding of pathway dynamics and their role in cancer development.
