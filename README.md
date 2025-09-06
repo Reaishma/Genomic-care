@@ -63,6 +63,8 @@ The application appears to be designed for researchers and clinicians working wi
 * **Sequence Alignment and Phylogenetic Analysis**: Performed sequence alignment using Needleman-Wunsch and Smith-Waterman algorithms and constructed phylogenetic trees with various layouts.
 * **Data Variant Detection and Visualization**: Analyzed and visualized allele frequencies and other data variants.
 * **Gene Expression Analysis and Pathway Analysis**: Identified potential therapeutic targets, understood pathway dynamics, and validated results.
+![pathway analysis](https://github.com/Reaishma/Genomic-care/blob/main/chrome_screenshot_Sep%205%2C%202025%201_53_07%20PM%20GMT%2B05_30.png)
+
 * **Cancer Research**: Applied pathway analysis to cancer research, identified potential drugs, and simulated pathway dynamics.
 * **Machine Learning Model Development**: Developed a machine learning model for genetic analysis platform.
 
