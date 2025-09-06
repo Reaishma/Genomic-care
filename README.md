@@ -34,6 +34,8 @@ The application appears to be designed for researchers and clinicians working wi
 
 ## Data Flow
 
+![therapeutic](https://github.com/Reaishma/Genomic-care/blob/main/chrome_screenshot_Sep%205%2C%202025%201_52_02%20PM%20GMT%2B05_30.png)
+
 1. **Data Input**: Users input genetic data through web forms or file uploads
 2. **Client-Side Processing**: JavaScript processes the data using ML libraries
 3. **Model Inference**: TensorFlow.js and ML.js models analyze the genetic information
@@ -43,7 +45,7 @@ The application appears to be designed for researchers and clinicians working wi
 ## External Dependencies
 
 ### CDN-es
-- **libraries
+- **libraries**
 - **TensorFlow.js**: Machine learning framework for browser-based neural networks
 - **ML.js**: JavaScript machine learning library for classical algorithms
 - **D3.js**: Data visualization library for custom interactive graphics
