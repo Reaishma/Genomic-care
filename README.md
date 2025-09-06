@@ -13,9 +13,9 @@ View live demo https://reaishma.github.io/Genomic-care/
 -----------
 
 Genomic data integration for personalized medicine involves combining genetic information with clinical data to provide tailored treatments and prevention strategies. This approach enables healthcare providers to predict disease risks, identify effective medications, and prevent adverse reactions.
-
-
 The application appears to be designed for researchers and clinicians working with genetic data to identify potential therapeutic targets, pathway dynamics using  machine learning model.
+
+![Overview](https://github.com/Reaishma/Genomic-care/blob/main/chrome_screenshot_Sep%205%2C%202025%201_50_45%20PM%20GMT%2B05_30.png)
 
 ### Machine Learning Pipeline
 - **Dual ML Framework**: Combines TensorFlow.js for neural networks with ML.js for classical algorithms
