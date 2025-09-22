@@ -1,0 +1,7 @@
+Flask==3.1.2
+flask-cors==6.0.1
+numpy==2.3.3
+pandas==2.3.2
+scikit-learn==1.7.2
+biopython==1.85
+requests==2.32.5
