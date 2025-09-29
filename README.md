@@ -5,9 +5,12 @@
 [![Author](https://img.shields.io/badge/Author-Reaishma%20N-blue.svg)](https://github.com/Reaishma)
 
 
-# 🚀 Live Demo 
+# 🚀 Access the project 
 
-View live demo https://reaishma.github.io/Genomic-care/
+**Live App**-  
+
+
+**Web Interface on** https://reaishma.github.io/Genomic-care/
 
 ## Overview
 -----------
