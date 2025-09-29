@@ -7,7 +7,7 @@
 
 # 🚀 Access the project 
 
-**Live App**-  
+**Live App**- https://genomic-care.vercel.app/ 
 
 
 **Web Interface on** https://reaishma.github.io/Genomic-care/
